@@ -1,0 +1,53 @@
+.sobremim-bg {
+    background: #071514;
+}
+  .sobremim {
+      padding: 40px 20px;
+        margin: 0 auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+     box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+
+    .sobremim h1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 120px;
+     color: #7B001E;
+     font-size: 64px;
+    }
+  
+    .sobremim p {
+        font-size:  32px;
+        font-weight: 400;
+        padding-top: 80px;
+        position: relative;
+        color: #cccc;
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 120px;
+        }
+
+@media screen and (max-width: 768px) {
+         .sobremim h1 {
+       margin-top: 20px;
+       color: #7B001E;
+       font-size: 36px;
+      }
+    
+      .sobremim p {
+          font-size:  18px;
+          padding-top: 10px;
+           margin-bottom: 40px;
+           margin-left: auto;
+           margin-right: auto;
+          }
+}

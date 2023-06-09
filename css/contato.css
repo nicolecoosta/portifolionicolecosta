@@ -1,0 +1,118 @@
+.contato-bg {
+    background-image: url('../img/telefone-background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.contato-bg h1 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 120px;
+ color: #7B001E;
+ font-size: 64px;
+    }
+
+.contato {
+    padding: 40px 20px;
+      margin: 0 auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+   box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.texto-contato h2{
+        font-size:  36px;
+        font-weight: 400;
+        position: relative;
+        color: #fff;
+        margin-top: 60px;
+        text-align: left;
+        margin-bottom: 20px;
+}
+
+.texto-contato p{
+    font-size:  24px;
+    font-weight: 400;
+    position: relative;
+    color: #b2b2b2;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.dados{
+    margin-top: 60px;
+    margin-bottom: 160px;
+}
+
+.dados li + li{
+   margin-top: 20px;
+}
+
+.dados li{
+    font-size:  36px;
+        font-weight: 400;
+        position: relative;
+        color: #fff;
+        text-align: right;
+        margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .skills-bg{
+      background: #030C0B;
+        padding: 40px;
+    }
+    
+    .contato-bg h1{
+       font-size: 28px;
+       padding-top: 40px;
+    }
+    
+    .contato {
+        padding: 20px 20px;
+        max-width: 360px;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      }
+      
+      .texto-contato h2{
+        font-size:  30px;
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .texto-contato p{
+        font-size:  20px;
+        text-align: center;
+        color: #e0e0e0;
+        margin-bottom: 20px;
+    }
+    
+    .dados{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .dados li + li{
+       margin-top: 10px;
+    }
+    
+    .dados li{
+        font-size:  24px;
+            text-align: center;
+            margin-bottom: 20px;
+    }
+    
+    }
+  
