@@ -23,6 +23,8 @@
   .skills-bg{
     background: #030C0B;
       padding: 40px;
+      margin-top: -2px;
+      margin-bottom: -2px;
   }
   
   .skills-bg h1{
@@ -34,6 +36,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .skills img{

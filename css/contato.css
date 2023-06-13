@@ -1,5 +1,5 @@
 .contato-bg {
-    background-image: url('../img/telefone-background.svg');
+    background-image: url('../img/contato-back.svg');
     background-repeat: no-repeat;
     background-size: cover;
 } 
@@ -65,8 +65,8 @@
 }
 
 @media screen and (max-width: 768px) {
-    .skills-bg{
-      background: #030C0B;
+    .contato-bg{
+        background-image: url('../img/contato-back-mobile.svg');
         padding: 40px;
     }
     

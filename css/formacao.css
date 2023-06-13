@@ -27,7 +27,7 @@
     font-size: 20px;
     line-height: 1.4;
     color: #8F8F8F;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     position: relative;
   }
   
@@ -42,21 +42,20 @@
     left: -40px;
   }
   
-  .formacao-extra{
-    display: flex;
+  .bacharel{
+     display: flex;
     flex-direction: column;
-    gap: 40px;
-  }
-  .formacao-extra li{
-    gap: 40px;
     }
-  
+      .bacharel span{
+     justify-content: center;
+      }
+        
     .formacao-extra li::before {
       gap: 40px;
       }
   
   .idiomas h2::before {
-    background: url(../img/idiomas.svg) no-repeat center center;
+    background: url('../img/idiomas.svg') no-repeat center center;
     left: -36px;
   }
   
@@ -65,7 +64,7 @@
     line-height: 1.1;
     margin-bottom: 20px;
   }
-  
+
   .formacao-extra li::before {
     content: "";
     width: 24px;
@@ -78,14 +77,36 @@
   
   .formacao-extra span {
     color: #8f8f8f;
+    font-size: 14px;
+  }
+  .formacao-extra b {
+    color: #8f8f8f;
   }
   
   .formacao-extra li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-  }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    color: #FFFF;
+    }
+    .bacharel{
+      margin-bottom: 40px;
+    }
+  .bacharel span {
+    text-align: center;
+    margin-left: 30px;
+    }
+    .bacharel b {
+      text-align: right;
+      margin-left: 240px;
+      }
+     .ingles b {
+      grid-column: 3;
+     text-align: right;
+     }
+     .ingles{
+      margin-bottom: -20px;
+     }
+  
 
   /*FORMAÇÃO CURSOS*/
 
@@ -102,7 +123,7 @@
     font-size: 20px;
     line-height: 1.4;
     color: #8F8F8F;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
     position: relative;
   }
   
@@ -333,6 +354,7 @@
   .formacao {
     background: #040F0E;
     box-shadow: 0 -40px #040F0E;
+    margin-bottom: -10px;
   }
   .formacao h1{
         font-size: 28px;
@@ -340,14 +362,43 @@
   .formacao-extra{
     max-width: 360px;
     padding: 20px 20px;
-  }
+    }
+         
+    
+    .bacharel li {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column: 1/-1;
+      white-space: nowrap;
+      
+      }
 
+      .bacharel{
+        margin-bottom: 20px;
+      }
+    .bacharel span {
+      grid-column: 1;
+      text-align: left;
+      margin-left: 0;
+      }
+      .bacharel b {
+        grid-column: 2;
+        text-align: right;
+        margin-left: 0px;
+        }
+       .ingles b {
+       text-align: right;
+       }
+       .ingles{
+        margin-bottom: 20px;
+      }
+   
+      
   .formacao-extra h2 {
     font-size: 18px;
-    margin-bottom: 10px;
-    margin-top: -40px;
+   
     margin-left: 20px;
-  }
+    }
 
   .formacao-extra h2::before {
     left: -30px;
@@ -359,7 +410,7 @@
     }
 
   .formacao-extra .ingles{
-    margin-top: 20px;
+    margin-top: 40px;
     gap: 20px;
   }
 
