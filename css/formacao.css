@@ -384,7 +384,7 @@
       .bacharel b {
         grid-column: 2;
         text-align: right;
-        margin-left: 0px;
+        margin-left: 0;
         }
        .ingles b {
        text-align: right;

@@ -62,7 +62,7 @@ margin-right: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  margin-bottom: -2px;
+  margin-bottom: -60px;
 }
 
 .habilidades-bg h1{
@@ -71,9 +71,9 @@ margin-right: auto;
 
 .habilidades{
 width:80px;
-padding: 10px 10px;
+padding: 20px 15px;
 margin-top: 20px;
-margin-bottom: 20px;
+margin-bottom: 100px;
 margin-left: auto;
 margin-right: auto;
 display: flex;
@@ -81,15 +81,17 @@ justify-content: start;
 }
 
 .web{
-  margin-bottom: 90px;
+  margin-bottom: 140px;
 }
-
+.ui{
+  margin-bottom: 120px;
+}
 .habilidades h3{
-  font-size: 22px;
+  font-size: 17px;
   margin-top: 10px;
 }
 .habilidades p{
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   margin-top: 10px;
 }
