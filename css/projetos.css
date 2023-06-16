@@ -141,9 +141,9 @@
   }
   .projetos-site .botoes2{
     grid-column: 2;
-    width: 150%;
-    margin-top: -27px;
-    margin-left: 125px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 1000px;
   }
 
   .site-ano {

@@ -1,5 +1,6 @@
 .footer {
   background-image: url('../img/header-back.svg');
+  background-repeat: repeat;
   padding: 40px 20px;
   margin: 0 auto;
   display: flex;
@@ -21,14 +22,14 @@
   padding: 10px;
 }
 
-.botoes2{
+.botoes3{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   margin-bottom: -18px;
   
 }
-.botoes2 img{
+.botoes3 img{
   width: 40%;
 }
 
@@ -51,14 +52,14 @@
     display: none;
   }
 
-  .botoes2{
+  .botoes3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2px;
     
     
   }
-  .botoes2 img{
+  .botoes3 img{
     width: 50%;
     
 
