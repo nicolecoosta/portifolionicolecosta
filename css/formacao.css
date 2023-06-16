@@ -384,7 +384,9 @@
       .bacharel b {
         grid-column: 2;
         text-align: right;
-        margin-left: -1px;
+        }
+        .ciencias b{
+          margin-left: -20px;
         }
        .ingles b {
        text-align: right;
