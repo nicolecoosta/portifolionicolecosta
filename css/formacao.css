@@ -468,5 +468,7 @@
     margin: 0 auto;
     box-sizing: border-box;
   }
-
+  .item{
+    opacity: 1;
+  }
  }
