@@ -63,6 +63,14 @@
         text-align: right;
         margin-bottom: 20px;
 }
+.dados a{
+    text-decoration: none;
+    color: #fff;
+}
+.dados a:hover{
+    color: #7B001E;
+    font-size:  40px;
+}
 
 @media screen and (max-width: 768px) {
     .contato-bg{
