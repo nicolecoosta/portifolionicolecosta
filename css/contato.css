@@ -11,6 +11,8 @@
  padding-top: 120px;
  color: #7B001E;
  font-size: 64px;
+ font-family: "Spectral";
+line-height: 1.125;
     }
 
 .contato {
@@ -35,6 +37,8 @@
         margin-top: 60px;
         text-align: left;
         margin-bottom: 20px;
+        font-family: "Ubuntu";
+    line-height: 1.125;
 }
 
 .texto-contato p{
@@ -44,6 +48,8 @@
     color: #b2b2b2;
     text-align: left;
     margin-bottom: 20px;
+    font-family: "Ubuntu";
+    line-height: 1.125;
 }
 
 .dados{
@@ -62,6 +68,8 @@
         color: #fff;
         text-align: right;
         margin-bottom: 20px;
+        font-family: "Ubuntu";
+    line-height: 1.125;
 }
 .dados a{
     text-decoration: none;
@@ -121,6 +129,8 @@
             text-align: center;
             margin-bottom: 20px;
     }
-    
+    .dados a:hover{
+        font-size:  28px;
+    }
     }
   

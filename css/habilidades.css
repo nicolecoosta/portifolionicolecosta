@@ -1,16 +1,18 @@
 .habilidadess{
   background: #040E0D;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .habilidades-bg{
-  background: #040E0D;
   max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 60px;
-  padding: 120px;
+   margin-right: auto;
+   margin-left: auto;
+    background: #040E0D;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    padding: 120px;
 }
 
 .habilidades-bg h1{
@@ -20,21 +22,23 @@
   color: #7B001E;
    font-size: 64px;
    grid-column: 1/-1;
-   
+   font-family: "Spectral";
+    line-height: 1.125;
+    margin-bottom: 60px;
 }
 
 .habilidades{
+  width: 300px;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 background: #010808;
-max-width: 1200px;
-padding: 40px 30px;
-margin: 0 auto;
+padding: 40px 40px;
 border-radius: 4px;
-margin-left: auto;
+margin-left: -80px;
 margin-right: auto;
+padding-left: 50px;
 }
 
 .habilidades img{
@@ -46,54 +50,67 @@ margin-right: auto;
   font-size: 32px;
   text-align: center;
   margin-top: 20px;
+  font-family: "Spectral";
+    line-height: 1.125;
 }
 .habilidades p{
   color: #A3A3A3;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   margin-top: 20px;
+  font-family: "Ubuntu";
+    line-height: 1.125;
+    white-space:break-spaces;
+}
+.web{
+  margin-left: 10px;
+}
+.ui{
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 768px) {
-.habilidades-bg{
-  max-width: 360px;
-    padding: 15px 10px;
-    margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2px;
-  margin-bottom: -60px;
-}
+  .habilidades-bg{
+    max-width: 360px;
+      padding: 15px 10px;
+      margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    margin-bottom: -60px;
+  }
 
-.habilidades-bg h1{
-   font-size: 28px;
-}
+  .habilidades-bg h1{
+    font-size: 28px;
+    margin-bottom: -20px;
+  }
 
-.habilidades{
-width:80px;
-padding: 15px 10px;
-margin-top: 20px;
-margin-bottom: 100px;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-justify-content: start;
-}
+  .habilidades{
+  width:80px;
+  padding: 15px 10px;
 
-.web{
-  margin-bottom: 140px;
-}
-.ui{
-  margin-bottom: 120px;
-}
-.habilidades h3{
-  font-size: 17px;
-  margin-top: 10px;
-}
-.habilidades p{
-  font-size: 14px;
-  text-align: center;
-  margin-top: 10px;
-}
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: start;
+  }
+
+  .web{
+    margin-bottom: 140px;
+  }
+  .ui{
+    margin-bottom: 120px;
+  }
+  .habilidades h3{
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .habilidades p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
 
 }

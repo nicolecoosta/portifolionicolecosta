@@ -11,6 +11,8 @@
     color: #7B001E;
     font-size: 64px;
     margin-bottom: 60px;
+    font-family: "Spectral";
+    line-height: 1.125;
    }
 
    .formacao-extra{
@@ -29,6 +31,8 @@
     color: #8F8F8F;
     margin-bottom: 40px;
     position: relative;
+    font-family: "Spectral";
+    line-height: 1.125;
   }
   
   .formacao-extra h2::before {
@@ -38,7 +42,6 @@
     height: 24px;
     background: url("../img/cursos.svg") no-repeat center center;
     position: absolute;
-    top: 3px;
     left: -40px;
   }
   
@@ -63,6 +66,8 @@
     font-size: 1.125rem;
     line-height: 1.1;
     margin-bottom: 20px;
+    font-family: "Spectral";
+    line-height: 1.125;
   }
 
   .formacao-extra li::before {
@@ -78,9 +83,13 @@
   .formacao-extra span {
     color: #8f8f8f;
     font-size: 14px;
+    font-family: "Ubuntu";
+    line-height: 1.125;
   }
   .formacao-extra b {
     color: #8f8f8f;
+    font-family: "Ubuntu";
+    line-height: 1.125;
   }
   
   .formacao-extra li {
@@ -125,6 +134,8 @@
     color: #8F8F8F;
     margin-bottom: 60px;
     position: relative;
+    font-family: "Spectral";
+    line-height: 1.125;
   }
   
   .formacao-cursos h2::before {
@@ -134,7 +145,6 @@
     height: 24px;
     background: url("../img/cursos\ intensivos.svg") no-repeat center center;
     position: absolute;
-    top: 3px;
     left: -40px;
   }
 
@@ -190,6 +200,8 @@
   grid-column: 1/-1;
   text-align: center;
   margin-bottom: 60px;
+  font-family: "Spectral";
+    line-height: 1.125;
 }
 
 .ui-uxdesign h3::before {
@@ -231,7 +243,10 @@
   flex: 1;
   font-size: 0.875rem;
   color: #a3a3a3;
+  font-family: "Ubuntu";
+    line-height: 1.125;
   margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 .curso-nome {
@@ -240,6 +255,8 @@
   margin-bottom: 40px;
   position: relative;
   color: #FFFF;
+  font-family: "Spectral";
+    line-height: 1.125;
 }
 
 .curso-detalhe .curso-nome::before {
@@ -255,10 +272,20 @@
 }
 
 .curso-instituicao {
-  display: flex;
-  font-size: 1.125rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1rem;
   line-height: 1.4;
-  color: #E0E0E0;
+  color: #525252;
+  font-family: "Ubuntu";
+    line-height: 1.125;
+}
+.curso-instituicao span{
+  grid-column: 1;
+}
+.curso-instituicao b{
+  grid-column: 2;
+  margin-left: 60px;
 }
 
 
@@ -477,4 +504,13 @@
     opacity: 0.5;
     transition: all 600ms ease-in-out;
   }
- }
+  .curso-instituicao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .curso-instituicao b{
+    margin-left: 0;
+  }
+}

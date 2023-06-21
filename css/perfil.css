@@ -26,10 +26,14 @@
     color: #B8B8B8;
     margin-top: 200px;
     text-align: center;
+    font-family: "Spectral";
+    line-height: 1.125;
   }
 
   .perfil h1 b {
    color: #7B001E;
+   font-family: "Spectral";
+    line-height: 1.125;
   }
 
   .perfil h2 {
@@ -38,6 +42,8 @@
     position: relative;
     color: #B8B8B8;
     text-align: center;
+    font-family: "Spectral";
+    line-height: 1.125;
   }
   
 

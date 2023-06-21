@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.footer img{
+.footer img {
   width: 10%;
   padding-left: 60px;
 }
@@ -20,6 +20,8 @@
   color: #ccc;
   text-align: center;
   padding: 10px;
+  font-family: "Spectral";
+    line-height: 1.125;
 }
 
 .botoes3{
