@@ -336,7 +336,7 @@
     text-align: center;
     cursor: pointer;
     color: #7B001E;
-    background: linear-gradient(to left, transparent 0%, black 200%);
+    background: none;
     border: none;
     z-index: 99999;
     opacity: 0.5;

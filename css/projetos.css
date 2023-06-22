@@ -160,12 +160,12 @@
 
   .site-ano {
     position: absolute;
-    top: 21px;
-    left: 190px;
+    top: 24px;
+    left: 210px;
     text-align: right;
     width: 80px;
     color: #525252;
-    font-size: 14px;
+    font-size: 12px;
   }
   .site-habilidades {
    justify-content: center;
