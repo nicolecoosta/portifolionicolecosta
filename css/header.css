@@ -84,7 +84,7 @@
      display: none;
    }
    .mobile-menu-icon {
-     display: flex;
+     display: block;
      padding: 10px;
      z-index: 999;
      
