@@ -339,7 +339,7 @@
     background: none;
     border: none;
     z-index: 99999;
-    opacity: 0.5;
+    opacity: 1;
     
     transition: all 600ms ease-in-out;
   }
