@@ -77,34 +77,26 @@
     left: -40px;
     top: 10px;
   }
-  .menu {
+  .nav-item {
      display: none;
    }
-   
    .menu:before {
      display: none;
    }
-   .mobile-menu-icon {
-     display: block;
-     padding: 10px; 
-     z-index: 999;
-     
- }
+   .mobile-menu-icon{
+    display: block;
+   }
  .mobile-menu-icon button {
      background-color: transparent;
      border: none;
-     cursor: pointer;
-     z-index: 999;
-     margin-right: -40px;
-     margin-top: -30px;
-     
+     cursor: pointer;         
  }
- .mobile-menu-icon img {
-  display: block;
-  position: relative;
-  width: 50%;
-  
-}
+
+ .mobile-menu-icon img{
+  width: 15%;
+  margin-left: 260px;
+  margin-top: 10px;
+ }
  .mobile-menu ul {
   display: flex;
   flex-direction: column;
