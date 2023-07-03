@@ -19,12 +19,11 @@ function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "./img/HAMBURGUER.svg";
+        document.querySelector('.icon').src = "./img/hamburguer.svg";
     } else {
         menuMobile.classList.add('open');
         document.querySelector('.icon').src = "./img/close-hamburguer.svg";
     }
-    btnMobile.addEventListener('click', toggleMenu);
   }
   
 
