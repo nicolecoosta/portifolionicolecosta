@@ -96,6 +96,7 @@
   width: 15%;
   margin-left: 260px;
   margin-top: 10px;
+  z-index: 9999;
  }
  .mobile-menu ul {
   display: flex;
