@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="portuguese">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicole Costa</title>
+  <meta name="description" content="Desenvolvedora Front End & UX/UI Designer. Localizada no Rio de Janeiro">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./img/favicon.svg" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    .whatsapp {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      z-index: 9999;
+    }
+
+    #link-topo{
+    text-decoration: none;
+    color: #222;
+    background: #7B001E;
+    padding: 20px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    z-index: 9999;
+  }
+
+  @media screen and (max-width: 768px)  {
+      .whatsapp {
+        width: 35px;
+        bottom: 20px;
+        right: 15px;
+      }
+      #link-topo{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        bottom: 20px;
+        left: 20px;
+      }
+    }
+</style>
+</head>
+
+<body>
+  <header class="header-curso" id="home">
+    <img src="./img/Nicole.svg" alt="NicoleCosta">
+    <nav>
+      <ul class="menu-curso">
+        <li><a href="./index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="cursos">
+    <div class="formacao-cursos">
+        <h2>CURSOS INTENSIVOS</h2>
+          <div class="ui-uxdesign">
+            <h3>UI/UX Design</h3>    
+            <div class="curso-detalhe curso-detalhe1">
+              <ul>
+                  <li class="curso">
+                    <span class="curso-tipo">CURSO INTENSIVO</span>
+                      <h4 class="curso-nome">UI Design para Iniciantes</h4>
+                      <div class="curso-instituicao"><span>ORIGAMID</span><b>Carga: 17h</b></div> 
+                      <div class="botoes">
+                        <a href="https://www.origamid.com/certificate/0de1f614" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-certificado.svg" alt=""></a>
+                        <a href="https://www.figma.com/proto/s4eSIisvz1gm52MhYS8Y1f/Portifólio?type=design&node-id=1-10&scaling=min-zoom&page-id=0%3A1" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-figma.svg" alt=""></a>
+                      </div>
+                  </li>
+              </div>
+
+              <div class="curso-detalhe curso-detalhe1">
+                    <ul>
+                      <li class="curso">
+                        <span class="curso-tipo">CURSO INTENSIVO</span>
+                        <h4 class="curso-nome">UI Design Avançado</h4>
+                        <div class="curso-instituicao"><span>ORIGAMID</span> <b> Carga: 15h</b></div>
+                        <div class="botoes">
+                        <a href="https://www.origamid.com/certificate/0de1f614" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-certificado.svg" alt=""></a>
+                          <a href="https://www.figma.com/proto/s4eSIisvz1gm52MhYS8Y1f/Portifólio?type=design&node-id=1-10&scaling=min-zoom&page-id=0%3A1" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-figma.svg" alt=""></a>
+                        </div>
+                      </li>
+              </div>
+
+              <div class="curso-detalhe curso-detalhe1">
+                    <ul>
+                      <li class="curso">
+                        <span class="curso-tipo">CURSO INTENSIVO</span>
+                        <h4 class="curso-nome">Figma</h4>
+                        <div class="curso-instituicao"><span>ALURA</span> <b> Carga: 47h</b></div>
+                        <div class="botoes">
+                          <a href="https://cursos.alura.com.br/formacao-figma" target="_blank" rel="noopener noreferrer"><img src="./img/andamento.svg" alt=""></a>
+                        </div>
+                      </li>
+                      </ul>
+                </div>
+
+                <div class="curso-detalhe curso-detalhe1">
+                    <ul class="curso-lista">
+                      <li class="curso">
+                        <span class="curso-tipo">CURSO INTENSIVO</span>
+                        <h4 class="curso-nome">UX Design</h4>
+                        <div class="curso-instituicao"><span>ALURA</span> <b> Carga: 44h</b></div>
+                        <div class="botoes">
+                          <a href="https://cursos.alura.com.br/formacao-ux" target="_blank" rel="noopener noreferrer"><img src="./img/andamento.svg" alt=""></a>
+                        </div>
+                      </li>
+                  </div>
+
+                  <div class="curso-detalhe curso-detalhe1">
+                    <ul class="curso-lista">
+                      <li class="curso">
+                        <span class="curso-tipo">CURSO INTENSIVO</span>
+                        <h4 class="curso-nome">Sketch</h4>
+                        <div class="curso-instituicao"><span>ALURA</span> <b> Carga: 45h</b></div>
+                        <div class="botoes">
+                          <a href="https://cursos.alura.com.br/formacao-ui-sketch" target="_blank" rel="noopener noreferrer"><img src="./img/andamento.svg" alt=""></a>
+                        </div>
+                      </li>
+                  </div>
+
+              
+        </div>       
+
+        <div class="ui-uxdesign">
+          <h3 class="curso-detalhe2">Front-End</h3>          
+                <div class="curso-detalhe curso-detalhe1">
+                  <ul>
+                      <li class="curso">
+                        <span class="curso-tipo">CURSO INTENSIVO</span>
+                        <h4 class="curso-nome">HTML e CSS para Iniciantes</h4>
+                        <div class="curso-instituicao"><span>ORIGAMID</span> <b> Carga: 23h</b></div>
+                        <div class="botoes">
+                        <a href="https://www.origamid.com/certificate/96323888" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-certificado.svg" target="_blank" rel="noopener noreferrer" alt=""></a>
+                        <a href="https://nicolecoosta.github.io/nicolecoosta.bikcraft/" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-git-formacao.svg" alt=""></a>
+                        </div>
+                      </li>
+              </div>
+
+              <div class="curso-detalhe curso-detalhe1">
+                <ul>
+                  <li class="curso curso-1">
+                    <span class="curso-tipo">CURSO INTENSIVO</span>
+                    <h4 class="curso-nome">Lógica de programação: laços e listas com JavaScript</h4>
+                    <div class="curso-instituicao"><span>ALURA</span> <b> Carga: 4h</b></div>
+                    <div class="botoes">
+                    <a href="https://cursos.alura.com.br/certificate/nicolecoosta/javascript-listas-lacos" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-certificado.svg" alt=""></a>
+                    </div>
+                  </li>
+              </div>
+
+              <div class="curso-detalhe curso-detalhe1">
+                <ul>
+                  <li class="curso curso-1">
+                    <span class="curso-tipo">CURSO INTENSIVO</span>
+                    <h4 class="curso-nome">Lógica de programação: comece em lógica com o jogo Pong e JavaScript</h4>
+                    <div class="curso-instituicao"><span>ALURA</span> <b> Carga: 6h</b></div>
+                    <div class="botoes">
+                      <a href="https://cursos.alura.com.br/certificate/nicolecoosta/pong-javascript" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-certificado.svg" alt=""></a>
+                    </div>
+                  </li>
+              </div>
+
+              <div class="curso-detalhe">
+                <ul>
+                   <li class="curso">
+                     <span class="curso-tipo">CURSO INTENSIVO</span>
+                     <h4 class="curso-nome">JavaScript Completo ES6</h4>
+                     <div class="curso-instituicao"><span>ORIGAMID</span> <b> Carga: 37h</b></div>
+                     <div class="botoes">
+                        <a href="https://www.origamid.com/curso/javascript-completo-es6" target="_blank" rel="noopener noreferrer"><img src="./img/andamento.svg" alt=""></a>
+                     </div>
+                   </li>
+               </div>
+
+               <div class="curso-detalhe">
+                <ul>
+                   <li class="curso">
+                     <span class="curso-tipo">CURSO INTENSIVO</span>
+                     <h4 class="curso-nome">CSS Grid Layout</h4>
+                     <div class="curso-instituicao"><span>ORIGAMID</span> <b> Carga: 5h</b>
+                     <div class="botoes">
+                      <a href="https://www.origamid.com/certificate/05a956d1" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-certificado.svg" alt=""></a>
+                     </div>
+                   </li>
+               </div>
+
+               <div class="curso-detalhe">
+                <ul>
+                   <li class="curso">
+                     <span class="curso-tipo">CURSO INTENSIVO</span>
+                     <h4 class="curso-nome">CSS Flexbox</h4>
+                     <div class="curso-instituicao"><span>ORIGAMID</span> <b> Carga: 3h</b></div>
+                     <div class="botoes">
+                      <a href="https://www.origamid.com/certificate/b4d6925b" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-certificado.svg" alt=""></a>
+                     </div>
+                   </li>
+               </div>
+        </div>    
+        
+        <div class="ui-uxdesign">
+          <h3 class="curso-detalhe3">Outros</h3>        
+              <div class="outros">
+                <div class="curso-detalhe curso-detalhe1">
+                  <ul>
+                      <li class="curso">
+                        <span class="curso-tipo">CURSO INTENSIVO</span>
+                        <h4 class="curso-nome">Scrum: agilidade em seu projeto</h4>
+                        <div class="curso-instituicao"><span>ALURA</span> <b> Carga: 5h</b></div>
+                        <div class="botoes">
+                          <a href="https://cursos.alura.com.br/certificate/nicolecoosta/agile-scrum" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-certificado.svg" alt=""></a>
+                        </div>
+                      </li>
+                  </div>
+
+                  <div class="curso-detalhe curso-detalhe1">
+                    <ul>
+                      <li class="curso curso-1 curso-2">
+                        <span class="curso-tipo">CURSO INTENSIVO</span>
+                        <h4 class="curso-nome">Git e Github: controle e compartilhe seu código</h4>
+                        <div class="curso-instituicao"><span>ALURA</span> <b> Carga: 6h</b></div>
+                        <div class="botoes">
+                          <a href="https://cursos.alura.com.br/certificate/nicolecoosta/git-github-controle-de-versao" target="_blank" rel="noopener noreferrer"><img src="./img/acessar-certificado.svg" alt=""></a>
+                        </div>
+                      </li>
+                  </div>
+                </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <img class="logo" href="./index.html" src="./img/Nicole.svg" alt="NicoleCosta">
+    <h2>Rio de Janeiro - RJ</h2>
+    <div class="botoes3">
+      <a href="https://github.com/nicolecoosta?tab=repositories" target="_blank" rel="noopener noreferrer"><img src="./img/github-footer.svg" alt=""></a>
+      <a href="./curriculo.pdf" download target="_blank" rel="noopener noreferrer"><img src="./img/curriculo-footer.svg" alt=""></a>
+      <a href="https://www.linkedin.com/in/nicole-costa-926bb11a8/" target="_blank" rel="noopener noreferrer"><img src="./img/linkedin-footer.svg" alt=""></a>
+      <a href="tel:+5521980263881" target="_blank" rel="noopener noreferrer"> <img src="./img/telefone-footer.svg" alt=""></a>
+      <a href="mailto:nicolecoosta@gmail.com" target="_blank" rel="noopener noreferrer"><img src="./img/email-footer.svg" alt=""></a>
+      <a href="https://wa.me/5521980263881?text=Olá!%20:)%20Posso%20te%20ajudar?" target="_blank" rel="noopener noreferrer"> <img src="./img/wpp-footer.svg" alt=""></a>
+    </div>
+  </footer>
+
+  <div class="whatsapp">
+    <a href="https://wa.me/5521980263881?text=Olá!%20:)%20Posso%20te%20ajudar?" target="_blank" rel="noopener noreferrer">
+     <img src="./img/wpp-icon.svg" width="55" alt="Fale conosco pelo Whatsapp" title="Fale conosco pelo Whatsapp">
+   </a>
+   <a id="link-topo" href="">&#9650</a>
+ </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+
+</html>
